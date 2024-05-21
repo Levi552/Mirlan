@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Появление и скрытие блока при нажатии</title>
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+<body>
+
+<button id="toggleButton">Вход</button>
+
+<div id="hiddenBlock">
+    <h2 class="block-h2">Логин</h2>
+    <input class="block-input" type="text" placeholder="username">
+    <h2 class="block-h2-password">Пароль</h2>
+    <input class="block-input-password" type="password" placeholder="******">
+    <button class="btn-inblock">Войти</button>
+</div>
+
+
+
+<script>
+    var button = document.getElementById('toggleButton');
+    var block = document.getElementById('hiddenBlock');
+
+    button.addEventListener('click', function() {
+        if (block.style.display === 'none') {
+            block.style.display = 'block';
+        } else {
+            block.style.display = 'none';
+        }
+    });
+</script>
+
+</body>
+</html>

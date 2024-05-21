@@ -1,0 +1,115 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#hiddenBlock {
+    width: 345px;
+    height: 242px;
+    background-color: white;
+    display: none;
+    border: 2px solid #F0F0F0;
+    border-radius: 12px;
+    margin: 0 auto;
+}
+
+.btn-inblock{
+    width: 297px;
+    border-radius: 8px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 7px;
+    background-color: #4E9FFF;
+    height: 34px;
+    border: none;
+    color: white;
+    font-weight: 550;
+    font-size: 16px;
+    line-height: 19.5px;
+    font-family: "Montserrat", sans-serif;
+}
+
+#toggleButton{
+    width: 160px;
+    border-radius: 12px;
+    background-color: #4E9FFF;
+    height: 48px;
+    border: none;
+    color: white;
+    font-weight: 550;
+    font-size: 16px;
+    line-height: 19.5px;
+    font-family: "Montserrat", sans-serif;
+
+}
+
+.block-h2{
+    margin-top: 22px;
+    font-family: "Montserrat", sans-serif;
+    padding-left: 44px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19.5px;
+    text-align: left;
+    width: 54px;
+height: 20px;
+gap: 0px;
+opacity: 0px;
+width: 54px;
+display: flex;
+justify-content: center;
+margin-bottom: 10px;
+}
+
+.block-input{
+    width: 297px;
+height: 40px;
+display: block;
+margin: 0 auto;
+justify-content: center;
+border-radius: 10px;
+border: 1px solid #ECECEC;
+
+}
+
+.block-input::placeholder{
+    padding: 10px;
+}
+
+.block-h2-password{
+    font-family: "Montserrat", sans-serif;
+    padding-left: 45px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19.5px;
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 54px;
+height: 20px;
+gap: 0px;
+opacity: 0px;
+width: 54px;
+display: flex;
+justify-content: center;
+}
+
+.block-input-password{
+    width: 297px;
+height: 40px;
+display: block;
+margin: 0 auto 10px;
+justify-content: center;
+border-radius: 10px;
+border: 1px solid #ECECEC;
+
+}
+
+.block-input-password::placeholder{
+    padding: 10px;
+    padding-top: 5px;
+}
+
